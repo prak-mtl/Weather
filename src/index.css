@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.w33 {
+  width: 33vw;
+}
+
+.d-flex {
+  display: flex;
+}
+.jc-bet{
+  justify-content: space-between;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px dotted green;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.color-section {
+  border: 1px dashed green;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.display-section {
+  border: 1px solid green;
+  margin: 10px;
+}
+
+.color-primary {
+  cursor: pointer;
+  width: 100vw;
+  height: 5rem;
+  background-color: rgb(136, 27, 76);
+}
+.color-secondary {
+  cursor: pointer;
+  width: 100vw;
+  height: 5rem;
+  background-color: rgb(46, 172, 41);
+}
+.color-tertiary {
+  cursor: pointer;
+  width: 100vw;
+  height: 5rem;
+  background-color: rgb(54, 17, 189);
+}
+.color-dark {
+  cursor: pointer;
+  width: 100vw;
+  height: 5rem;
+  background-color: rgb(20, 20, 20);
+}
+
+
+/***************************  TABLE COLOR  ************************************/
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
