@@ -1,4 +1,5 @@
 # Weather
 
 
-## https://prak-mtl.github.io/Weather/index.html
+## https://prak-mtl.github.io/Weather
+
