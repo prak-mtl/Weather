@@ -15,7 +15,7 @@ export default function FetchData(props) {
   const [scale, setScale] = useState("°F");
   const [lang, setLang] = useState("en");
   const [isLoading, setLoading] = useState(true);
-  const [cityData, setCityData] = useState(); //when api calls use cityDat and comment the imported json
+  const [cityDat, setCityData] = useState(); //when api calls use cityDat and comment the imported json
   const [selectedCity, setSelectedCity] = useState("dubai");
   const [searchedCity, setSearchedCity] = useState("dubai");
   const [latitude, setLatitude] = useState(25.2048);
@@ -78,7 +78,7 @@ export default function FetchData(props) {
     return (((value - 32) * 5) / 9).toFixed(2);
   }
 
-  if (!isLoading) {
+  if (isLoading) {
     return <p>Loading....</p>;
   } else
     return (
