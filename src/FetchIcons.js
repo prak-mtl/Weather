@@ -1,7 +1,9 @@
 import React from "react";
 
 export default function FetchIcons(icon) {
-  return <img src={iconMap(icon)} alt="icon" />;
+  return (
+    <img src={iconMap(icon)} alt="icon" width={icon === "fog" ? "32" : "64"} />
+  );
 }
 
 function iconMap(name) {
