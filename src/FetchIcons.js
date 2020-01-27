@@ -34,10 +34,10 @@ function iconMap(name) {
       return require("./icons/animated/wind.svg");
 
     case "sleet":
-      return require("./icons/animated/snowy-1.svg");
+      return require("./icons/animated/sleet.png");
 
     case "fog":
-      return require("./icons/animated/cloudy-night-2.svg");
+      return require("./icons/animated/fog.svg");
 
     default:
       return require("./icons/animated/weather.svg");
