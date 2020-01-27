@@ -51,9 +51,9 @@ export default function FetchData(props) {
     )
       .then(res => res.json())
       .then(result => {
-        setSearchedCity(result.query[0]);
-        setLatitude(result.features[0].center[0]);
-        setLongitude(result.features[0].center[1]);
+        setSearchedCity(result.features[0].text);
+        setLatitude(result.features[0].center[1]);
+        setLongitude(result.features[0].center[0]);
       });
   }
 

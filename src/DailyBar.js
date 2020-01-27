@@ -36,12 +36,12 @@ function getCurrentHour() {
 
 function getColor() {
   const currentHour = getCurrentHour();
-
+console.log(currentHour)
   if (currentHour) {
     if (currentHour <= 4) return "#131948";
-    else if (currentHour > 5 && currentHour <= 8) return "#545454";
-    else if (currentHour > 9 && currentHour <= 12) return "#9ec7f9";
-    else if (currentHour > 13 && currentHour <= 16) return "#f7ed7a";
-    else if (currentHour > 17 && currentHour <= 20) return "#131948";
+    else if (currentHour > 4 && currentHour <= 8) return "#545454";
+    else if (currentHour > 8 && currentHour <= 12) return "#86b3f1";
+    else if (currentHour > 12 && currentHour <= 16) return "#ffcb6c";
+    else if (currentHour > 16 && currentHour <= 20) return "#131948";
   }
 }

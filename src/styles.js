@@ -28,14 +28,14 @@ export const DisplayFlex = styled.div`
 
 export const CurrentDiv = styled.div`
   text-align: center;
-  color: #022737;  /*#202020*/
+  color: ${props =>
+    props.theme === "light" ? "#022737" : "#eaeaea"}; /*#202020*/
   background-image: ${props =>
     props.theme === "light"
       ? "linear-gradient(#abecfb, #84aff1)"
       : "linear-gradient(#091236, #1e215d)"};
   padding: 20px 0;
 `;
-
 
 export const PrimaryButton = styled(Button)`
   background-color: ${props => props.theme.colors.primaryColor};
@@ -66,7 +66,7 @@ export const PrimaryButton = styled(Button)`
 export const ProgressBar = styled(Progress)`
   height: 25px;
   margin-top: 1rem;
-  & .progress-bar{
+  & .progress-bar {
     background-color: ${props => props.loaded} !important;
   }
 `;
