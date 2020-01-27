@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd4ecc1e166b48f4156b48114435e177",
+    "revision": "74df53a9ced08ffdac6145af1d45c3e9",
     "url": "/Weather/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Weather/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "deb67b018699dea23dea",
+    "revision": "c4ac86589356f2c03c19",
     "url": "/Weather/static/css/main.be147dcd.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Weather/static/js/2.7f9e2952.chunk.js.LICENSE"
   },
   {
-    "revision": "deb67b018699dea23dea",
-    "url": "/Weather/static/js/main.d4d8ad47.chunk.js"
+    "revision": "c4ac86589356f2c03c19",
+    "url": "/Weather/static/js/main.58ca5963.chunk.js"
   },
   {
     "revision": "3da22f851633d5ed7912",
@@ -36,10 +36,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Weather/static/media/cloudy-night-1.7e65840b.svg"
   },
   {
-    "revision": "ef1c6aa1ca72ea2157736318d24ede62",
-    "url": "/Weather/static/media/cloudy-night-2.ef1c6aa1.svg"
-  },
-  {
     "revision": "ad789581dd3bfe802dd2e6ea0c2f5caa",
     "url": "/Weather/static/media/cloudy.ad789581.svg"
   },
@@ -48,16 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Weather/static/media/day.7f93fbdb.svg"
   },
   {
+    "revision": "ede6da9a07519672890d8633f00d651f",
+    "url": "/Weather/static/media/fog.ede6da9a.svg"
+  },
+  {
     "revision": "a3f3f38d2c17971938ebd891fb6bbd0c",
     "url": "/Weather/static/media/night.a3f3f38d.svg"
   },
   {
     "revision": "c915395f8c3e3571d734680505ceeb11",
     "url": "/Weather/static/media/rainy-7.c915395f.svg"
-  },
-  {
-    "revision": "f78cba60ad28e30ea060d424f114670a",
-    "url": "/Weather/static/media/snowy-1.f78cba60.svg"
   },
   {
     "revision": "3def7c9fb95731ac622871fb6925d5f6",
