@@ -217,7 +217,7 @@ export default function FetchData(props) {
         </CurrentDiv>
 
         {/* Today's bar */}
-        <div className="w-75 mx-auto">
+        <div className="w-75 mx-auto overflow-auto">
           <DailyBar
             hourlyData={cityDat.hourly}
             convertTemp={convertTemp}
@@ -252,10 +252,6 @@ export default function FetchData(props) {
           id="embedded-map"
           height="700px"
           width="100%"
-          // bis_size='{"x":0,"y":0,"w":0,"h":0,"abs_x":0,"abs_y":0}'
-          // bis_id="fr_7xba10p7l84ph6xhjksmve"
-          // bis_depth="0"
-          // bis_chainid="1"
           src={url}
         ></iframe>
       </div>
