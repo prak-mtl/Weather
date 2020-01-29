@@ -32,8 +32,8 @@ export const CurrentDiv = styled.div`
     props.theme === "light" ? "#022737" : "#eaeaea"}; /*#202020*/
   background-image: ${props =>
     props.theme === "light"
-      ? "linear-gradient(#abecfb, #84aff1)"
-      : "linear-gradient(#091236, #1e215d)"};
+      ? "linear-gradient(#97deef,#75a4ec)"  //light theme
+      : "linear-gradient(#091236, #1e215d)"}; //darktheme
   padding: 20px 0;
 `;
 
